@@ -23,7 +23,7 @@ After cloning, install all packages from '''requirement.txt'''
 pip install -r requirements.txt
 ```
 
-Download Visual C++ from this <a href="http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe">link</a>
+Download Visual C++ from this <a href="http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe">link</a>. 
 Visual Studio is required in order to install python-bsonjs
 ```
 pipenv install python-bsonjs
@@ -40,9 +40,12 @@ flask run
 
 ### Create User
 
-target - /create/user  
+target - /create/user
+<br>
 method - POST
+<br>
 json schema
+```
 {
     "name":"Sherlock Holmes",
     "email":"sherlocked@locked.in",
@@ -55,11 +58,14 @@ json schema
         "pin":"sher"
     },
 }
+```
 
 ### Create Worker
 
 target - /create/worker  
+<br>
 method - POST
+<br>
 json schema
 
 
