@@ -18,7 +18,7 @@ new_env\Scripts\activate
 
 ### Installing the dependencies 
 
-After cloning, install all packages from ```requirement.txt```
+After cloning, install all packages from ```requirements.txt```
 ```
 pip install -r requirements.txt
 ```
