@@ -23,7 +23,7 @@ After cloning, install all packages from '''requirement.txt'''
 pip install -r requirements.txt
 ```
 
-Download Visual C++ from this <a href=http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe>link</a>
+Download Visual C++ from this <a href="http://go.microsoft.com/fwlink/?LinkId=691126&fixForIE=.exe">link</a>
 Visual Studio is required in order to install python-bsonjs
 ```
 pipenv install python-bsonjs
