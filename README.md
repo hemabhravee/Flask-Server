@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Clone the repository to your local system
+Clone the repository to your local system. Everything will be done inside this directory.
 
 ### Setting up an environment
 
