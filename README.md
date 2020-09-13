@@ -10,6 +10,7 @@ Create a new environment
 ```
 py -m venv new_env
 ```
+This will create a folder new_env. <br>
 
 Activate it
 ```
