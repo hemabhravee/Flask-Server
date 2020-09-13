@@ -36,4 +36,4 @@ pipenv install python-bsonjs
 flask run
 ```
 
-### [API Documentation](https://github.com/Wander-Force/Flask-Server/edit/master/docs.md)
+### [API Documentation](https://github.com/Wander-Force/Flask-Server/edit/master/apiDoc.md)
