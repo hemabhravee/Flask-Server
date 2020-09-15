@@ -8,13 +8,13 @@ Clone the repository to your local system. Everything will be done inside this d
 
 Create a new environment
 ```
-py -m venv new_env
+py -m venv env1
 ```
 This will create a folder new_env. <br>
 
 Activate it
 ```
-new_env\Scripts\activate
+env1\Scripts\activate
 ```
 
 ### Installing the dependencies 
