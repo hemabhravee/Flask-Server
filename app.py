@@ -22,7 +22,7 @@ db = client.get_database('Wander_Force')
 
 from bson import json_util 
 
-@app.route('/history/<usertype>/<string:userid>', methods=['GET'])
+@app.route('/<usertype>/history/<string:userid>', methods=['GET'])
 def history(userid, usertype):
     
     data = db.history.find()
@@ -67,7 +67,7 @@ def history(userid, usertype):
     return json.dumps(z, default=str)
 
 
-@app.route('/create/user', methods=['POST'], endpoint='createUser')
+@app.route('/user/create', methods=['POST'], endpoint='createUser')
 def createUser():
     indata = request.get_json()
 
@@ -84,7 +84,7 @@ def createUser():
     return resp
 
 
-@app.route('/create/worker', methods=['POST'], endpoint='createWorker')       
+@app.route('/worker/create', methods=['POST'], endpoint='createWorker')       
 def createWorker():
     indata = request.get_json() 
 

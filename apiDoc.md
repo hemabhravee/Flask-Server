@@ -1,6 +1,6 @@
 # API Documentation
 
-### `POST /create/user`
+### `POST /user/create`
  Creates a new user
 
 * **Request Body** : JSON Object with following keys
@@ -28,7 +28,7 @@
 * returns id of user
 
 
-### `POST /create/worker`
+### `POST /worker/create`
 Creates a new worker
 
 * **Request Body** : JSON Object with following keys
@@ -75,7 +75,7 @@ Jobtypes is a list which can hold any of the following values :
 
 
 
-### `GET /history/<usertype>/<userid>`
+### `GET /<usertype>/history/<userid>`
 Find history
 
 **Arguments :**
